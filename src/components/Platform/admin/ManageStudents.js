@@ -1,6 +1,17 @@
 import React from 'react';
 import StudentList from '../students/StudentList';
 
+/** Manage Students
+ *
+ * authorization: admin only
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * RoutesList -> ManageStudents
+ *
+ */
+
 function ManageStudents() {
   return (
     <>
