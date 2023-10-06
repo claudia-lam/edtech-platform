@@ -3,11 +3,15 @@ import { slide as Menu } from 'react-burger-menu';
 import '../routes-nav/SideBar.css';
 import { NavLink } from 'react-router-dom';
 
+/** Admin Homepage
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * RoutesList -> AdminHome
+ *
+ */
 function AdminHome() {
-
-  // function showSideBar(event) {
-  //   event.preventDefault();
-  // }
 
   return <div>
     <h1>Admin Dashboard</h1>
@@ -17,7 +21,6 @@ function AdminHome() {
       <NavLink className="menu-item" to="/teachers"> Teachers</NavLink>
       <NavLink className="menu-item" to="/reports"> Meeting Reports</NavLink>
       <NavLink className="menu-item" to="/billing"> Billing </NavLink>
-      {/* <a onClick={showSideBar} className="menu-item--small" href="/admin">Settings</a> */}
     </Menu>
     <div>A search bar</div>
     <br></br>
