@@ -29,6 +29,7 @@ function RoutesList() {
         <Route path="/admin" element={<AdminHome />} />
         <Route path="/students" element={<ManageStudents />} />
         <Route path="/teachers" element={<ManageTeachers />} />
+        <Route path="/reports" element={<MeetingReports />} />
         <Route path="/teacher" element={<TeacherHome />} />
         <Route path="/student" element={<StudentHome />} />
         {/* <Route path="/" element={<Homepage />} /> */}
