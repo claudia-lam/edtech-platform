@@ -2,6 +2,17 @@ import React from 'react';
 import ClassList from './ClassList';
 import { Link } from "react-router-dom";
 
+/** Student Homepage
+ *
+ * authorization: student
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * RoutesList -> StudentHome -> ClassList
+ *
+ */
+
 function StudentHome() {
   return (
     <>

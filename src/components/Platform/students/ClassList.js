@@ -2,6 +2,17 @@ import React from 'react';
 import styles from './Student.module.css';
 import { FileEarmark } from 'react-bootstrap-icons';
 
+/** Show page with list of classes
+ *
+ * authorization: student only?
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * StudentHome -> ClassList -> ClassCard (TODO:)
+ *
+ */
+
 function ClassList() {
   return <div>
     <table className={styles.studentTable}>

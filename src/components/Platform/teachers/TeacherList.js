@@ -2,6 +2,17 @@ import React from 'react';
 import styles from './Teacher.module.css';
 import { PencilSquare } from 'react-bootstrap-icons';
 
+/** Show page with list of teachers
+ *
+ * authorization: admin only
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * ManageTeachers -> TeacherList -> TeacherCard(TODO:)
+ *
+ */
+
 function TeacherList() {
   return <div>
     <table className={styles.teacherTable}>

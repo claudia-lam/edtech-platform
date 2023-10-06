@@ -2,6 +2,17 @@ import React from 'react';
 import styles from './Student.module.css';
 import { Upload, PencilSquare } from 'react-bootstrap-icons';
 
+/** Show page with list of students
+ *
+ * authorization: admin and teachers?
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * {ManageStudents, TeacherHome} -> StudentList -> StudentCard(TODO:)
+ *
+ */
+
 function StudentList() {
   return <div>
     <table className={styles.studentTable}>

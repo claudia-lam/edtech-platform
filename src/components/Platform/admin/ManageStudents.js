@@ -3,12 +3,12 @@ import StudentList from '../students/StudentList';
 
 /** Manage Students
  *
- * authorization: admin only
+ * authorization: admin and teacher?
  *
  * props: TODO:
  * state: TODO:
  *
- * RoutesList -> ManageStudents
+ * RoutesList -> ManageStudents -> StudentList
  *
  */
 

@@ -3,7 +3,16 @@ import { NavLink } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 import StudentList from '../students/StudentList';
 
-
+/** Teacher Homepage
+ *
+ * authorization: teacher
+ *
+ * props: TODO:
+ * state: TODO:
+ *
+ * RoutesList -> TeachertHome -> StudentList
+ *
+ */
 function TeacherHome() {
   return <div>
     <h1>Teacher Dashboard</h1>

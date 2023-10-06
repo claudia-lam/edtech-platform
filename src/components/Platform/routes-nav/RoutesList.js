@@ -12,6 +12,8 @@ import { slide as Menu } from 'react-burger-menu';
 
 /** Site-wide routes.
  *
+ * Parts of site should only be visitable depending on role.
+ *
  * Visiting a non-existant route navigates to the homepage.
  */
 
