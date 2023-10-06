@@ -10,7 +10,7 @@ function AdminHome() {
   // }
 
   return <div>
-    <h1>Admin</h1>
+    <h1>Admin Dashboard</h1>
     <Menu>
       <NavLink className="menu-item" to="/admin"> Dashboard</NavLink>
       <NavLink className="menu-item" to="/students"> Students</NavLink>
