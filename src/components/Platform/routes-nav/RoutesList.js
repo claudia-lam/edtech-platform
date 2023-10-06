@@ -6,6 +6,7 @@ import TeacherHome from "../teachers/TeacherHome";
 import ManageStudents from "../admin/ManageStudents";
 import ManageTeachers from "../admin/ManageTeachers";
 import MeetingReports from "../admin/MeetingReports";
+import Billing from "../admin/Billing";
 import { slide as Menu } from 'react-burger-menu';
 
 
@@ -31,6 +32,7 @@ function RoutesList() {
         <Route path="/students" element={<ManageStudents />} />
         <Route path="/teachers" element={<ManageTeachers />} />
         <Route path="/reports" element={<MeetingReports />} />
+        <Route path="/billing" element={<Billing />} />
         <Route path="/teacher" element={<TeacherHome />} />
         <Route path="/student" element={<StudentHome />} />
         {/* <Route path="/" element={<Homepage />} /> */}
