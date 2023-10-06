@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import AdminHome from "../admin/AdminHome";
 import StudentHome from "../students/StudentHome";
 import TeacherHome from "../teachers/TeacherHome";
+import ManageStudents from "../admin/ManageStudents";
 
 /** Site-wide routes.
  *
@@ -14,6 +15,7 @@ function RoutesList() {
     <div className="routes-list">
       <Routes>
         <Route path="/admin" element={<AdminHome />} />
+        <Route path="/students" element={<ManageStudents />} />
         <Route path="/teacher" element={<TeacherHome />} />
         <Route path="/student" element={<StudentHome />} />
         {/* <Route path="/" element={<Homepage />} /> */}
