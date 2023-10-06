@@ -58,6 +58,13 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
+    color:#b8b7ad;
+    text-decoration: none;
+    padding-bottom: 20%;
+  }
+
+  .bm-item:hover {
+    color:#c94e50;
   }
 
   /* Styling of overlay */
