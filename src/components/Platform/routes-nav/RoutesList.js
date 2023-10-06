@@ -5,6 +5,7 @@ import StudentHome from "../students/StudentHome";
 import TeacherHome from "../teachers/TeacherHome";
 import ManageStudents from "../admin/ManageStudents";
 import ManageTeachers from "../admin/ManageTeachers";
+import MeetingReports from "../admin/MeetingReports";
 import { slide as Menu } from 'react-burger-menu';
 
 
